@@ -80,7 +80,7 @@ export const StudentsProvider = ({children}) => {
                 }));
             }
         } catch (error) {
-            console.log(error)
+            console.log(`Error: ${error}`);
         }
 
     }
